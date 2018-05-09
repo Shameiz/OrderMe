@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		517BE853209A3A2000A49754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE852209A3A2000A49754 /* AppDelegate.swift */; };
-		517BE855209A3A2000A49754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE854209A3A2000A49754 /* ViewController.swift */; };
+		517BE855209A3A2000A49754 /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE854209A3A2000A49754 /* SummaryVC.swift */; };
 		517BE858209A3A2000A49754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517BE856209A3A2000A49754 /* Main.storyboard */; };
 		517BE85A209A3A2000A49754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517BE859209A3A2000A49754 /* Assets.xcassets */; };
 		517BE85D209A3A2000A49754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517BE85B209A3A2000A49754 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,11 @@
 		517BE86F209A868C00A49754 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE86E209A868C00A49754 /* SummaryCell.swift */; };
 		517BE87120A1F94100A49754 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87020A1F94100A49754 /* Order.swift */; };
 		517BE87320A1FE7900A49754 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87220A1FE7900A49754 /* Category.swift */; };
+		517BE87520A244F200A49754 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87420A244F200A49754 /* OrderVC.swift */; };
+		517BE87720A24C3400A49754 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87620A24C3400A49754 /* OrderCell.swift */; };
+		517BE87920A2545900A49754 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87820A2545900A49754 /* UIViewControllerExtension.swift */; };
+		517BE87C20A2780C00A49754 /* OrderVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87B20A2780C00A49754 /* OrderVCExtension.swift */; };
+		517BE87E20A27BC600A49754 /* SummaryVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517BE87D20A27BC600A49754 /* SummaryVCExtension.swift */; };
 		8BFA06B3E518287B96EC28F9 /* Pods_OrderMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448A9F68A4BC122314107560 /* Pods_OrderMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +29,7 @@
 		448A9F68A4BC122314107560 /* Pods_OrderMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		517BE84F209A3A2000A49754 /* OrderMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517BE852209A3A2000A49754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		517BE854209A3A2000A49754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		517BE854209A3A2000A49754 /* SummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
 		517BE857209A3A2000A49754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		517BE859209A3A2000A49754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		517BE85C209A3A2000A49754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +39,11 @@
 		517BE86E209A868C00A49754 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
 		517BE87020A1F94100A49754 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		517BE87220A1FE7900A49754 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		517BE87420A244F200A49754 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		517BE87620A24C3400A49754 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		517BE87820A2545900A49754 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		517BE87B20A2780C00A49754 /* OrderVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVCExtension.swift; sourceTree = "<group>"; };
+		517BE87D20A27BC600A49754 /* SummaryVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryVCExtension.swift; sourceTree = "<group>"; };
 		874BC6E3EA694C5D9FB59C76 /* Pods-OrderMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderMe/Pods-OrderMe.debug.xcconfig"; sourceTree = "<group>"; };
 		D69D501DD2199F31A9D78833 /* Pods-OrderMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-OrderMe/Pods-OrderMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,13 +89,13 @@
 		517BE851209A3A2000A49754 /* OrderMe */ = {
 			isa = PBXGroup;
 			children = (
+				517BE87A20A277D100A49754 /* Extensions */,
 				517BE869209A3D6F00A49754 /* Utilities */,
 				517BE868209A3D6100A49754 /* Services */,
 				517BE866209A3D3000A49754 /* Controller */,
 				517BE865209A3D1E00A49754 /* Views */,
 				517BE864209A3D0E00A49754 /* Model */,
 				517BE852209A3A2000A49754 /* AppDelegate.swift */,
-				517BE854209A3A2000A49754 /* ViewController.swift */,
 				517BE856209A3A2000A49754 /* Main.storyboard */,
 				517BE859209A3A2000A49754 /* Assets.xcassets */,
 				517BE85B209A3A2000A49754 /* LaunchScreen.storyboard */,
@@ -107,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				517BE86E209A868C00A49754 /* SummaryCell.swift */,
+				517BE87620A24C3400A49754 /* OrderCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +125,8 @@
 		517BE866209A3D3000A49754 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				517BE854209A3A2000A49754 /* SummaryVC.swift */,
+				517BE87420A244F200A49754 /* OrderVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -132,6 +145,16 @@
 				517BE86A209A3D8200A49754 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		517BE87A20A277D100A49754 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				517BE87820A2545900A49754 /* UIViewControllerExtension.swift */,
+				517BE87B20A2780C00A49754 /* OrderVCExtension.swift */,
+				517BE87D20A27BC600A49754 /* SummaryVCExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8FAFB4CAA98A00BD6EBC4B46 /* Pods */ = {
@@ -278,9 +301,14 @@
 			files = (
 				517BE87120A1F94100A49754 /* Order.swift in Sources */,
 				517BE86F209A868C00A49754 /* SummaryCell.swift in Sources */,
-				517BE855209A3A2000A49754 /* ViewController.swift in Sources */,
+				517BE87920A2545900A49754 /* UIViewControllerExtension.swift in Sources */,
+				517BE87E20A27BC600A49754 /* SummaryVCExtension.swift in Sources */,
+				517BE855209A3A2000A49754 /* SummaryVC.swift in Sources */,
 				517BE853209A3A2000A49754 /* AppDelegate.swift in Sources */,
+				517BE87720A24C3400A49754 /* OrderCell.swift in Sources */,
 				517BE86B209A3D8200A49754 /* Constants.swift in Sources */,
+				517BE87C20A2780C00A49754 /* OrderVCExtension.swift in Sources */,
+				517BE87520A244F200A49754 /* OrderVC.swift in Sources */,
 				517BE86D209A4AED00A49754 /* DataService.swift in Sources */,
 				517BE87320A1FE7900A49754 /* Category.swift in Sources */,
 			);

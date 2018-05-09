@@ -8,11 +8,11 @@
 
 import Foundation
 struct Order {
-    private(set) public var price: Int
+    private(set) public var price: String
     private(set) public var id: Int
     private(set) public var items: Int
     
-    init(price: Int, id: Int, items: Int) {
+    init(price: String, id: Int, items: Int) {
         self.price = price
         self.id = id
         self.items = items

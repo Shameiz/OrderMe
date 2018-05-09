@@ -15,4 +15,15 @@ struct Category {
         self.number = number
         self.orderList = orderList
     }
+    
+    init(number :Int, order: Order){
+        self.number = number;
+        self.orderList=[]
+        self.orderList.append(order);
+    }
+    
+    mutating func addOrder(order:Order){
+        orderList.append(order)
+        number = number+1;
+    }
 }
