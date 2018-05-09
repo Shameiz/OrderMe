@@ -9,3 +9,6 @@ Sort By Province
 
 <img src="Screenshots/Year.png" width="250">
 Sort By Year
+
+<img src="Screenshots/OrderDetail.png" width="250">
+Order Details Page
